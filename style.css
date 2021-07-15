@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}	
+section
+{ 
+     width: 100%;
+     height: 100vh;
+     background: url('../event\ 2.jpg');
+     background-size: cover;
+ }
+ section .leftBox
+ {
+ 	width: 50%;
+ 	height: 100%;
+ 	float: left;
+ 	padding: 50px;
+	 box-sizing: border-box;
+ }
+ section  .leftBox  .content
+ {
+      color: #fff;
+	  background: rgba(0,0,0,.5);
+	  padding: 40px;
+	  transition:  .5s;
+ }
+ section  .leftBox  .content:hover
+ {
+	 background:#e91e2f;
+ }
+ section  .leftBox  .content h1
+ {
+	 margin: 0;
+	 padding: 0;
+	 font-size: 50px;
+	 text-transform: uppercase;  
+ }
+ section  .leftBox  .content p
+ {
+	 margin: 10px 0 0;
+	 padding: 0;
+ }
+ section .events
+ {
+	 position: relative;
+	 width: 50%;
+	 height: 100%;
+	 background: rgba(0,0,0,.5);
+	 float: right;
+	 box-sizing: border-box;
+ }
+ section .events ul
+ {
+	 position: absolute;
+	 top: 50%;
+	 transform: translateY(-50%);
+	 margin: 0;
+	 padding: 40px;
+	 box-sizing: border-box;
+ }
+section .events ul li
+{
+	list-style: none;
+	background:#fff;
+	box-sizing: border-box;
+	height: 200px;
+	margin: 15px 0;
+}	
+section .events ul li .time
+{
+	position: relative;
+	padding: 20px;
+	background: #262626;
+	box-sizing: border-box;
+	width: 30%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	transition: .5s;
+}
+section .events ul li:hover .time
+{
+	background: #e91e2f;
+}
+section .events ul li .time h2
+ {
+	 position: absolute;
+	 margin: 0;
+	 padding: 0;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+	 color: #fff;
+	 font-size: 60px;
+	 line-height: 30px;
+ }
+section .events ul li .time h2 span
+{
+	font-size: 30px;
+}
+section .events ul li .details
+{
+	padding: 20px;
+	background: #fff;
+	box-sizing: border-box;
+	width: 70%;
+	height: 100%;
+	float: left;	
+}
+section .events ul li .details h3
+{
+	position: relative;
+	margin: 0;
+    padding: 0;
+	font-size: 22px;
+}
+section .events ul li .details p
+{
+	position: relative;
+	margin: 10px 0 0;
+    padding: 0;
+	font-size: 16px;
+}
+section .events ul li .details a
+{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 2px solid #262626;
+	margin-top: 15px;
+	font-size: 18px;
+	transition: .5s;
+}
+section .events ul li .details a:hover
+{
+	background: #e91e2f;
+	color: #fff;
+	border-color: #e91e2f;
+}
+section .title ul li .events 
+{
+	margin: auto;
+	margin-top: 200px;
+	margin-left: 10px;
+	padding: 10px;
+	width: 200px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}	
+section .rightbox
+ {
+ 	width: 50%;
+ 	height: 100%;
+ 	float: left;
+ 	padding: 50px;
+	box-sizing: border-box;
+ }
+ section  .rightbox  .content
+ {
+      color: #fff;
+	  background: rgba(0,0,0,.5);
+	  padding: 40px;
+	  transition:  .5s;
+ }
+ section  .rightbox  .content:hover
+ {
+	 background:#e91e2f;
+ }
+ section  .rightbox  .content h1
+ {
+	 margin: 0;
+	 padding: 0;
+	 font-size: 50px;
+	 text-transform: uppercase;  
+ }
+ section  .rightbox  .content p
+ {
+	 margin: 10px 0 0;
+	 padding: 0;
+ }
+ .footer-basic {
+	padding:40px 0;
+	background-color:#ffffff;
+	color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+	padding:0;
+	list-style:none;
+	text-align:center;
+	font-size:18px;
+	line-height:1.6;
+	margin-bottom:0;
+  }
+  
+  .footer-basic li {
+	padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+	color:inherit;
+	text-decoration:none;
+	opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+	opacity:1;
+  }
+  
+  .footer-basic .social {
+	text-align:center;
+	padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+	font-size:24px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	display:inline-block;
+	text-align:center;
+	border-radius:50%;
+	border:1px solid #ccc;
+	margin:0 8px;
+	color:inherit;
+	opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+	opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+	margin-top:15px;
+	text-align:center;
+	font-size:13px;
+	color:rgb(24, 23, 23);
+	margin-bottom:0;
+  }
+  
+  /* Credit to https://epicbootstrap.com/snippets/footer-basic */
